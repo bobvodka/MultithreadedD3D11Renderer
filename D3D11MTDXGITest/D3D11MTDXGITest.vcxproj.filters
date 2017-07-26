@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3cfd9608-8dd5-405c-90c2-d35d6b744243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shard Engine">
+      <UniqueIdentifier>{8f8d4710-3802-4ea0-85bb-7a9fb6f083f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shard Engine">
+      <UniqueIdentifier>{3de0fa62-5032-46ff-b3fe-668f71457cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Amplifier Results">
+      <UniqueIdentifier>{5ecaa3bd-fe6d-4bde-991f-e15224fa73db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="D3D11MTDXGITest.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="2DOutputShader_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2DOutputShader_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="TLMCompute.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="EmitterShader_GS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="EmitterShader_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="EmitterShader_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="My Amplifier Results\r004lw\r004lw.ampl">
+      <Filter>My Amplifier Results</Filter>
+    </None>
+    <None Include="My Amplifier Results\r005lw\r005lw.ampl">
+      <Filter>My Amplifier Results</Filter>
+    </None>
+    <None Include="My Amplifier Results\r006hs\r006hs.ampl">
+      <Filter>My Amplifier Results</Filter>
+    </None>
+    <None Include="My Amplifier Results\r007hs\r007hs.ampl">
+      <Filter>My Amplifier Results</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11MTDXGITest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shard Engine\Emitter.h">
+      <Filter>Header Files\Shard Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shard Engine\EmitterHookDetails.h">
+      <Filter>Header Files\Shard Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IScheduler.h">
+      <Filter>Header Files\Shard Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11MTDXGITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingAgent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shard Engine\Emitter.cpp">
+      <Filter>Source Files\Shard Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3D11MTDXGITest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
